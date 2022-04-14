@@ -20,7 +20,7 @@ h1 {
     line-height: 2.5rem;
 }
 
-main {
+.charDetails {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,4 +40,14 @@ h3 {
     font-size: 2.5rem;
     font-weight: 700;
     margin: 1rem 2rem
+}
+
+.charArt {
+    order: 0;
+    height: 50rem;
+}
+
+.charDetails span {
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
