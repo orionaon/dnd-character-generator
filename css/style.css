@@ -1,0 +1,43 @@
+html {
+font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.welcome {
+    font-size: 2rem;
+    width: 50%;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem
+}
+.character {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem 2rem
+}
