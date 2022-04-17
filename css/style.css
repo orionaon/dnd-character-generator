@@ -30,10 +30,16 @@ h2 {
     font-weight: 700;
     margin-top: 3rem
 }
+.charBtn {
+    margin-top: 2rem;
+    font-size: 2rem;;
+    height: 3rem;
+    width: 25rem;
+}
 .character {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 h3 {
@@ -45,9 +51,30 @@ h3 {
 .charArt {
     order: 0;
     height: 50rem;
+    border-radius: 5%;
+    box-shadow: 1rem 1rem 0.5rem rgba(182, 181, 181, 0.6) ;
 }
 
 .charDetails span {
     font-size: 1.5rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+}
+
+.asi {
+    font-size: 2rem;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rollBtn {
+    font-size: 2rem;;
+    margin-bottom: 2rem;
+    height: 3rem;
+    width: 14rem;
+}
+.asi ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
