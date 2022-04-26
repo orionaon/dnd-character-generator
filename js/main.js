@@ -5,7 +5,7 @@ function fetchChar() {
 fetch("https://api.open5e.com/races/")
     .then(res => res.json()) // parse response as JSON
     .then(data => {
-        // console.log(data)
+        console.log(data)
         let randomRace = Math.floor(Math.random() * 9)
         // console.log(randomRace)
        document.querySelector('#race').innerText = data.results[randomRace].name
@@ -18,6 +18,7 @@ fetch("https://api.open5e.com/races/")
 fetch("https://api.open5e.com/classes/")
     .then(res => res.json()) // parse response as JSON
     .then(data => {
+        console.log(data)
         let randomClass = Math.floor(Math.random() * 12)
         // console.log(randomClass)
         document.querySelector('#class').innerText = data.results[randomClass].name
