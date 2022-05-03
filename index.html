@@ -8,42 +8,49 @@
 		<title>Last Minute Adventurer</title>
 
 		<!-- external CSS link -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<section class="header">
+		<section class="title">
 			<h1>Last Minute Adventurer</h1>
-			<p class="welcome"> Welcome Adventurer, we heard you needed a quick character idea for that last minute one-shot you've been invited to! Not to worry, we have what you need right here. Simply click the buttons below and head to the Dungeons!</p>
+			<p class="welcome"> Welcome Adventurer! click the buttons below to create a character and give them ability scores, then head to the Dungeons!</p>
 			
 		</section>
 
 		<main class="charDetails">
-			<h2>Your Character...</h2>
-			<button class="charBtn" id="char">Choose Race & Class</button>
+
 			<section class="character">
-        		<h3 id="race"></h3>
+				<button class="charBtn" id="char">Choose Race & Class</button>
+        		<h3 id="race">Race</h3>
 					<p id="raceDesc"></p>
-        		<h3 id="class"></h3>
+        		<h3 id="class">Class</h3>
 			</section>
-			<img class="charArt" src="assets\unknown.png" alt="">
-			<span>Art made using <a href="https://www.reroll.co/">Reroll.co</a></span>
+
+			<section class="art">
+				<img class="charArt" src="assets\unknown.png" alt="">
+				<span class="artSrc">Art made using <a href="https://www.reroll.co/">Reroll.co</a></span>
+			</section>
+			
+			<section class="stats">
+				<button class="rollBtn" id="roll">Roll Stats</button>
+				<ul class="baseStats">
+					<li id="str">Str</li>
+					<li id="dex">Dex</li>
+					<li id="con">Con</li>
+					<li id="int">Int</li>
+					<li id="wis">Wis</li>
+					<li id="cha">Cha</li>
+				</ul>
+				<ul id="getStats">
+
+				</ul>
+			</section>
+
 		</main>
-
-		<section class="asi">
-			<button class="rollBtn" id="roll">Roll Stats</button>
-			<!-- <ul>
-				<li id="str">Str</li>
-				<li id="dex">Dex</li>
-				<li id="con">Con</li>
-				<li id="int">Int</li>
-				<li id="wis">Wis</li>
-				<li id="cha">Cha</li>
-			</ul> -->
-			<ul id="getStats">
-
-			</ul>
-		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
